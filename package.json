@@ -1,0 +1,18 @@
+{
+  "name": "tock_reporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "csv": "^0.4.6",
+    "tape": "^4.2.1",
+    "request": "^2.60.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "tape testTock.js"
+  },
+  "author": "V. David Zvenyach",
+  "license": "CC0"
+}
