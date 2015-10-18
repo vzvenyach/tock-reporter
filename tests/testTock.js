@@ -1,5 +1,5 @@
 var tape = require('tape');
-var Tock = require('./tock');
+var Tock = require('../lib/tock');
 
 tape('testing Tock', function (t){
   var timecard = new Tock('vladlen.zvenyach','2015-10-01');
