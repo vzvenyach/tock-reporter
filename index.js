@@ -6,7 +6,5 @@ var date = process.argv[2]
 console.log('name,utilization_rate');
 timecards.forEach(function (d) {
   t = new Tock(d,date);
-  t.billable(function (x){
-    console.log(x);
-  });
+  t.getHours();
 });
